@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "create an qpp by node webSocket",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhengnan1018/chat-app.git"
+  },
+  "keywords": [
+    "node",
+    "webSocket"
+  ],
+  "author": "zhengnan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhengnan1018/chat-app/issues"
+  },
+  "homepage": "https://github.com/zhengnan1018/chat-app#readme",
+  "devDependencies": {
+    "bootstrap": "^3.3.6",
+    "jade": "^1.11.0",
+    "jquery": "^3.1.0",
+    "mime": "^1.3.4",
+    "socket.io": "^1.4.8"
+  }
+}
