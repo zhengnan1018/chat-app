@@ -4,8 +4,7 @@ var path = require('path')
 var mime = require('mime')
 var cache = {}
 
-
-// 发送文件数据及错误相应
+// 发送文件数据及错误响应
 // 请求文件不存在
 function send404(response) {
   response.writeHead(404, {'Content-Type': 'text/plain'})
@@ -53,8 +52,8 @@ var server = http.createServer(function(req, res) {
   serverStatic(res, cache, absPath)
 })
 
-server.listen(8090, function() {
-  console.log('Server listening on port: 8090');
+server.listen(8080, function() {
+  console.log('Server listening on port: 8080');
 })
 
 var chatServer = require('./lib/chat_server')

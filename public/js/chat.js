@@ -30,7 +30,7 @@ Chat.prototype.processCommand = function(command) {
       var room = words.join(' ')
       this.changeRoom(room)
       break;
-    canse 'nick':
+    case 'nick':
       words.shift()
       var name = words.join(' ')
       this.socket.emit('nameAttempt', name)
